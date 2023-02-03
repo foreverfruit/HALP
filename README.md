@@ -9,10 +9,10 @@ The source code of the proposed HALP method will be released soon...
 
 ## Dataset
 1. For subjective evaluation and blind reference evaluation
-  We constructed a Real-world Remote Sensing Haze Image Dataset (RRSHID), which consists of 277 haze-contaminated images manually selected from two classical remote sensing datasets, AID and DIOR. Details in folder "RRSHID".
+    We constructed a Real-world Remote Sensing Haze Image Dataset (RRSHID), which consists of 277 haze-contaminated images manually selected from two classical remote sensing datasets, AID and DIOR. Details in folder "RRSHID".
 2. For full-reference assessments
-  Haze1k: https://www.dropbox.com/s/k2i3p7puuwl2g59/Haze1k.zip?dl=0
-  DICE: https://pan.baidu.com/s/1h6SFWSnzH7GQJoM2UxO_ng
+      Haze1k: https://www.dropbox.com/s/k2i3p7puuwl2g59/Haze1k.zip?dl=0
+      DICE: https://pan.baidu.com/s/1h6SFWSnzH7GQJoM2UxO_ng
   
   
 
