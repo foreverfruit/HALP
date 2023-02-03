@@ -16,7 +16,7 @@ Remote sensing images (RSIs) captured in haze weather will suffer from serious q
 ## Dataset
 1. For subjective evaluation and blind reference evaluation
 
-    We constructed a Real-world Remote Sensing Haze Image Dataset (RRSHID), which consists of 277 haze-contaminated images manually selected from two classical remote sensing datasets, AID and DIOR. Details in folder "RRSHID".
+    We constructed a Real-world Remote Sensing Haze Image Dataset (RRSHID), which consists of 277 haze-contaminated images manually selected from two classical remote sensing datasets, AID and DIOR. **Details in folder "RRSHID".**
 2. For full-reference assessments
 
       - Haze1k: https://www.dropbox.com/s/k2i3p7puuwl2g59/Haze1k.zip?dl=0
@@ -26,7 +26,87 @@ Remote sensing images (RSIs) captured in haze weather will suffer from serious q
 
 ## Results
 
+- Results for RRSHID
+
+<table>
+<tr>
+	<td><img src="./img/hazy_img/AID_industrial_37.jpg" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/AID_industrial_37.jpg" width="100%" alt="HALP" /></td>
+</tr>
+    <tr>
+	<td><img src="./img/hazy_img/DIOR_TEST_13004.jpg" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/DIOR_TEST_13004.jpg" width="100%" alt="HALP" /></td>
+</tr>
+    <tr>
+	<td><img src="./img/hazy_img/AID_church_116.jpg" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/AID_church_116.jpg" width="100%" alt="HALP" /></td>
+</tr>
+</table>
 
 
+- Results for natural scene images
 
+<table>
+<tr>
+	<td><img src="./img/hazy_img/HazyDay.png" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/HazyDay.png" width="100%" alt="HALP" /></td>
+</tr>
+<tr>
+	<td><img src="./img/hazy_img/house_input.png" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/house_input.png" width="100%" alt="HALP" /></td>
+</tr>
+<tr>
+	<td><img src="./img/hazy_img/lviv_input.png" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/lviv_input.png" width="100%" alt="HALP" /></td>
+</tr>
+</table>
+
+
+- Results for RICE
+
+<table>
+<tr>
+	<td><img src="./img/hazy_img/RICE_269.png" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/RICE_269.png" width="100%" alt="HALP" /></td>
+</tr>
+</table>
+
+- Results for Haze1k
+
+<table>
+<tr>
+	<td><img src="./img/hazy_img/Haze1k_thin_375.png" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/Haze1k_thin_375.png" width="100%" alt="HALP" /></td>
+</tr>
+<tr>
+	<td><img src="./img/hazy_img/Haze1k_moderate_3.png" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/Haze1k_moderate_3.png" width="100%" alt="HALP" /></td>
+</tr>
+</table>
+
+- Heterogeneous atmospheric light and transmission
+
+<table>
+<tr>
+	<td><img src="./img/hazy_img/AID_farmland_265.jpg" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/AID_farmland_265_T.jpg" width="100%" alt="HALP" /></td>
+    <td><img src="./img/results/AID_farmland_265_A.jpg" width="100%" alt="HALP" /></td>
+    <td><img src="./img/results/AID_farmland_265.jpg" width="100%" alt="HALP" /></td>
+</tr>
+<tr>
+	<td><img src="./img/hazy_img/DIOR_TEST_12035.jpg" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/DIOR_TEST_12035_T.jpg" width="100%" alt="HALP" /></td>
+    <td><img src="./img/results/DIOR_TEST_12035_A.jpg" width="100%" alt="HALP" /></td>
+    <td><img src="./img/results/DIOR_TEST_12035.jpg" width="100%" alt="HALP" /></td>
+</tr>
+<tr>
+	<td><img src="./img/hazy_img/DIOR_TEST_15104.jpg" width="100%" alt="HALP" /></td>
+	<td><img src="./img/results/DIOR_TEST_15104_T.jpg" width="100%" alt="HALP" /></td>
+    <td><img src="./img/results/DIOR_TEST_15104_A.jpg" width="100%" alt="HALP" /></td>
+    <td><img src="./img/results/DIOR_TEST_15104.jpg" width="100%" alt="HALP" /></td>
+</tr>
+</table>
+
+
+**More results in the "img" folder.**
 
