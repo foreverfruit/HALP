@@ -110,3 +110,31 @@ Remote sensing images (RSIs) captured in haze weather will suffer from serious q
 
 **More results in the "img" folder.**
 
+
+
+## Citation
+
+If you find our work useful in your research, please cite:
+
+```tex
+@ARTICLE{10050029,
+  author={He, Yufeng and Li, Cuili and Li, Xu},
+  journal={IEEE Access}, 
+  title={Remote Sensing Image Dehazing Using Heterogeneous Atmospheric Light Prior}, 
+  year={2023},
+  volume={11},
+  pages={18805-18820},
+  doi={10.1109/ACCESS.2023.3247967}
+ }
+```
+
+
+
+## Acknowledgement
+
+Code borrows from [SideWindowFilter](https://github.com/YuanhaoGong/SideWindowFilter) by [YuanhaoGong](https://github.com/YuanhaoGong). Thanks for sharing !
+
+
+
+
+
