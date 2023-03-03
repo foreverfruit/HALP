@@ -10,8 +10,6 @@ Remote sensing images (RSIs) captured in haze weather will suffer from serious q
 </center>
 
 
-**The source code of the proposed HALP method will be released soon**...
-
 
 ## Dataset
 1. For subjective evaluation and blind reference evaluation
