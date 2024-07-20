@@ -1,5 +1,7 @@
 ## RRSHID: Real-world Remote Sensing Haze Image Dataset
 
+* Download Dataset: https://pan.baidu.com/s/1pPinlueKoX_YosYXf8I66Q?pwd=dasg 提取码: dasg *
+
 We constructed a Real-world Remote Sensing Haze Image Dataset (RRSHID), which consists of 277 haze-contaminated images manually selected from two classical remote sensing datasets, AID[1] and DIOR[2]. 150 images with the resolution of $600\times600$ are collected from the AID dataset, and the remaining 127 images with the resolution of $800\times800$ are from the DIOR dataset.
 
 
